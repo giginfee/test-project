@@ -123,7 +123,7 @@ const preview = () => {
 
 const saveDataToStorage = (title, text, imageUrl) => {
   if (localStorage.length > 10) localStorage.clear();
-  if (!key) key = (Date.now() + 5 * 60 * 1000).toString();
+  if (!key) key = Date.now().toString();
   localStorage.setItem(key, JSON.stringify({ title, text, imageUrl }));
   return key;
 };

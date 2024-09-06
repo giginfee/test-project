@@ -4,7 +4,7 @@
 
 Project is deployed on Netlify
 
-- https://
+- https://news-test-project.netlify.app/
 
 ## About
 
